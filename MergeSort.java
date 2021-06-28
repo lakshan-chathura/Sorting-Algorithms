@@ -2,6 +2,11 @@ package sortingalgorithams;
 
 import java.util.Arrays;
 
+// run time complexity
+//                          Best                                    Worst
+// Dividing                 O(log n)                                O(log n)
+// Merging                  O(n)                                    O(n)
+//                          O(nlog n)                               O(nlog n)
 public class MergeSort {
 
     public static void sort(int array[]){
