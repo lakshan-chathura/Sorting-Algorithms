@@ -24,6 +24,9 @@ static void bubbleSort(int arr[]){
                isSorted=false;
             }
         }
+     if(isSorted){
+            return;
+     }
         
     }
 }
